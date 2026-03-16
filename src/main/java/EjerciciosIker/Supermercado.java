@@ -37,6 +37,12 @@ public class Supermercado extends Empresa implements Promocionable {
         this.precioProducto = precioProducto;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+
+
     // DESCUENTO
 
     public double aplicarDescuento(double precioOriginal) {

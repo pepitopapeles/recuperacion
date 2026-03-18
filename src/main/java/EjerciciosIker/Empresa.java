@@ -25,6 +25,49 @@ public abstract class Empresa {
     }
 
 
+    //getter y setters
+
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getDinero() {
+        return dinero;
+    }
+
+    public void setDinero(double dinero) {
+        this.dinero = dinero;
+    }
+
+    public int getN_clientes() {
+        return n_clientes;
+    }
+
+    public void setN_clientes(int n_clientes) {
+        this.n_clientes = n_clientes;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public int getN_empleados() {
+        return n_empleados;
+    }
+
+    public void setN_empleados(int n_empleados) {
+        this.n_empleados = n_empleados;
+    }
+
     //metodos abstractos
     public abstract void poderAdquisitivo();
 
